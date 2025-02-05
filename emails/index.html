@@ -1,0 +1,321 @@
+---
+bodyClass: bg-slate-50
+preheader: Transactional email template
+---
+
+<x-main>
+  <style>
+    /* Fallback styles for email clients that don't support Tailwind */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f3f4f6;
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+    }
+
+    /* Make sure images are responsive */
+    .img-responsive {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Hide this on mobile */
+    @media screen and (max-width: 600px) {
+      .mobile-hide {
+        display: none !important;
+      }
+    }
+
+    /* Responsive font sizes for mobile */
+    @media screen and (max-width: 600px) {
+      .font-small {
+        font-size: 14px !important;
+      }
+
+      .font-medium {
+        font-size: 16px !important;
+      }
+
+      .font-large {
+        font-size: 18px !important;
+      }
+    }
+  </style>
+
+  <body class="bg-gray-600 font-sans">
+    <!--[if mso]>
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" valign="top">
+    <![endif]-->
+    <table role="presentation" class="w-full" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="bg-white ">
+          <table role="presentation" class="w-full" cellpadding="0" cellspacing="0" style="max-width:600px;">
+            <tbody>
+              <!-- Header -->
+              <tr>
+                <td align="center" class="p-[20px]">
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td width="20%" class="pt-2   text-center" align="left">
+                          <table class="bg-gray-300" width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td height="48" class="bg-gray-300">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- <div class="bg-gray-300 h-12 w-30 w-full"></div> -->
+                        </td>
+                        <td width="70%" class="p-2  text-left" align="left">
+                          <p class="text-xs text-[#002B2B] font-normal font-sans m-0">Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Banner -->
+              <tr>
+                <td>
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white">
+                    <tbody>
+                      <tr>
+                        <td align="center" height="203" class=" p-5 pt-0 pb-[30px]">
+                          <table class="bg-gray-300" width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td width="600" height="203" class="bg-gray-300">
+                                  <!-- <div class="bg-gray-300 w-full" style="max-width:600px; height:203px;"></div> -->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Main Content -->
+              <tr>
+                <td align="center" class="p-5">
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td class="pt-0 text-center">
+                          <h2 class="text-2xl font-bold text-[#005555] m-0 font-sans">Excepteur sint occaecat cupidatat
+                          </h2>
+                          <p class="text-gray-600 m-5  font-sans text-sm">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td align="center">
+                                  <table width="345" height="48" bgcolor="#008080"
+                                    style="width: 345px;height: 48px; border-radius: 4px; background-color: #008080;">
+                                    <tbody>
+                                      <tr>
+                                        <td width="345" height="48" align="center" style="width: 345px;height: 48px;">
+                                          <a href="#"
+                                            style="mso-line-height-rule:exactly;color: #ffffff; font-weight: 700; text-align:center; font-family: Arial, Helvetica, sans-serif;letter-spacing: normal;  text-decoration: none; display: table-cell; vertical-align: middle; box-sizing: content-box; width: 345px; height: 48px; ">Ut
+                                            enim ad minim veniam</a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+
+
+                                  </table>
+                                </td>
+                                <!-- <td align="center" class="w-80 h-[48px]" height="48" width="345"
+                                  style=" text-align: center; vertical-align: middle">
+                                  <a href="#"
+                                    style="mso-line-height-rule:exactly; text-align:center; font-family: Arial, Helvetica, sans-serif; color: #228800; letter-spacing: normal;  text-decoration: none; display: table-cell; border-radius: 0px; vertical-align: middle; min-width: 177px; box-sizing: content-box"
+                                    class="w-[344px] mb-[26px] inline-block bg-[#008080] text-white py-3 px-3 rounded font-sans text-xl font-bold no-underline">Ut
+                                    enim ad minim veniam</a>
+                                </td> -->
+
+
+
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Two-Column Section (Responsive) -->
+              <tr>
+                <td class="p-5 bg-gray-100">
+                  <h3 class="text-2xl font-bold text-[#005555] mb-[35px] mt-[7px] font-sans text-center">Sint cupidatat
+                    occaecat ut</h3>
+                  <table role="presentation" class="w-full mt-4 mb-[24px]">
+                    <tr>
+                      <td class="w-1/2 px-2 text-center sm:block sm:w-full">
+                        <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0">
+                          <tbody>
+                            <tr>
+                              <td align="center" class=" bg-white p-[26px] rounded shadow">
+                                <table align="center">
+                                  <tbody>
+                                    <tr>
+                                      <td class="w-[100px] h-[100px] bg-gray-300 mx-auto rounded-full">
+                                        <img src="Icon-profile.png" src-production="images/logo.png" width="100" alt="profile">
+                                       
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <h4 class="my-[15px] text-xl font-bold text-[#005555] font-sans">Nisi ut ade</h4>
+                                <p class="text-gray-600 text-base font-sans m-0">Lorem ipsum dolor sit amet,
+                                  consectetur
+                                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                  Ut enim
+                                  ad minim veniam.<sup>1</sup> </p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td class="w-1/2 px-2 text-center sm:block sm:w-full">
+                        <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0">
+                          <tbody>
+                            <tr>
+                              <td align="center" class=" bg-white p-[26px] rounded shadow">
+                                <table align="center">
+                                  <tbody>
+                                    <tr>
+                                      <td class="w-[100px] h-[100px] bg-gray-300 mx-auto rounded-full">
+                                        <img src="Icon-profile.png" src-production="images/logo.png" width="100" alt="profile">
+                                        <!-- image need to be included for rounded shape profile -->
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <h4 class="my-[15px] text-xl font-bold text-[#005555] font-sans">Nisi ut ade</h4>
+                                <p class="text-gray-600 text-base font-sans m-0">Lorem ipsum dolor sit amet,
+                                  consectetur
+                                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                  Ut enim
+                                  ad minim veniam.<sup>1</sup> </p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <!-- <td class="w-1/2 px-2 text-center sm:block sm:w-full mt-4 sm:mt-6">
+                        <div class="bg-white p-[26px] rounded shadow">
+                          <div class="w-[100px] h-[100px] bg-gray-300 mx-auto rounded-full"></div>
+                          <h4 class="my-[15px] text-xl font-bold text-[#005555] font-sans">Duis aute irure</h4>
+                          <p class="text-gray-600 text-base font-sans m-0">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam. <sup>2</sup> </p>
+                        </div>
+                      </td> -->
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Additional Info -->
+              <tr>
+                <td align="center">
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td class="px-5 pt-[35px] pb-[35px]">
+                          <h3 class="text-sm font-bold font-sans text-[#000000]">Ut enim ad minim:</h3>
+                          <p class="text-sm font-sans text-[#000000]">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <p class="text-sm font-sans text-[#000000] mb-0 ">Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td class="px-5 ">
+                          <p class="text-sm font-bold font-sans text-[#000000] mt-0 ">Sint occaecat cupidatat:</p>
+                          <ol class="font-sans text-[#000000] text-sm mt-2 list-decimal px-4">
+                            <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                              mollit anim id est laborum.</li>
+                            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+                            </li>
+                          </ol>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="px-5 ">
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td height="1" bgcolor="#002B2B"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Footer -->
+              <tr>
+                <td class="p-4 pt-[21px] text-center text-sm font-sans text-[#000000]">Sed do eiusmod tempor incididunt
+                  ut labore
+                </td>
+              </tr>
+              <tr>
+                <td class="pb-3" align="center">
+                  <table class="bg-gray-300"  cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td height="48"  class="bg-gray-300 w-[100px] ">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- <div class="bg-gray-300 h-12 w-30 w-full"></div> -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!--[if mso]>
+        </td>
+      </tr>
+    </table>
+    <![endif]-->
+  </body>
+</x-main>
